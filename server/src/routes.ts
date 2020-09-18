@@ -25,7 +25,7 @@ routes.get('/series', async (request, response) => {
         Object.assign(item, {seasons: `http://localhost:3333/series/${item.id}/seasons`})
     });
     
-    return response.json(series);
+    return response.json({ series });
 });
 
 routes.get('/series/:id', async (request, response) => {
