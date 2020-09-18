@@ -14,7 +14,7 @@ $ git clone https://github.com/lucasmoraes2/atividade-HATEOAS
 # Entre no diretório server
 $ cd server/
 
-# Instale as depências do projeto
+# Instale as dependências do projeto
 $ yarn install
 
 # Rode as migrates
